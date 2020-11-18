@@ -4,7 +4,7 @@ All URIs are relative to *https://api.avito.ru/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**getAccessToken**](AccessApi.md#getaccesstoken) | **GET** /token/?grant_type&#x3D;client_credentials | Получение access token
+[**getAccessToken**](AccessApi.md#getaccesstoken) | **GET** /token/ | Получение access token
 
 # **getAccessToken**
 > \Swagger\Client\Model\InlineResponse200 getAccessToken($grant_type, $client_id, $client_secret)

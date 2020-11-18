@@ -289,7 +289,7 @@ class AccessApi
             );
         }
 
-        $resourcePath = '/token/?grant_type=client_credentials';
+        $resourcePath = '/token/';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

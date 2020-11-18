@@ -80,7 +80,7 @@ All URIs are relative to *https://api.avito.ru/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AccessApi* | [**getAccessToken**](docs/Api/AccessApi.md#getaccesstoken) | **GET** /token/?grant_type&#x3D;client_credentials | Получение access token
+*AccessApi* | [**getAccessToken**](docs/Api/AccessApi.md#getaccesstoken) | **GET** /token/ | Получение access token
 *ApplicationAccessApi* | [**getAccessTokenAuthorizationCode**](docs/Api/ApplicationAccessApi.md#getaccesstokenauthorizationcode) | **GET** /token/?grant_type&#x3D;authorization_code | Получение access token
 *ApplicationAccessApi* | [**refreshAccessTokenAuthorizationCode**](docs/Api/ApplicationAccessApi.md#refreshaccesstokenauthorizationcode) | **GET** /token/?grant_type&#x3D;refresh_token | Обновление access token
 *AutoloadApi* | [**getAutoloadItemInfo**](docs/Api/AutoloadApi.md#getautoloaditeminfo) | **GET** /autoload/v1/accounts/{user_id}/items/{ad_id}/ | Получение информации о выгрузке объявления

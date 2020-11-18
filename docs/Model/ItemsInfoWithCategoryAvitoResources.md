@@ -5,7 +5,7 @@ Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **id** | **int** | Идентификатор объявления | [optional] 
 **title** | **string** | Наименование объявления | [optional] 
-**price** | [**Int32**](Int32.md) | Цена объявления (null значение означает, что цена не указана) | [optional] 
+**price** | **int** | Цена объявления (null значение означает, что цена не указана) | [optional] 
 **category** | [**\Swagger\Client\Model\ItemsInfoWithCategoryAvitoCategory**](ItemsInfoWithCategoryAvitoCategory.md) |  | [optional] 
 **status** | **string** | Статус объявления на сайте | [optional] 
 **url** | **string** | URL-адрес объявления | [optional] 

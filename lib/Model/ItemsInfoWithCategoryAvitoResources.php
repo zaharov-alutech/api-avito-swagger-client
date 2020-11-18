@@ -58,7 +58,7 @@ class ItemsInfoWithCategoryAvitoResources implements ModelInterface, ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
 'title' => 'string',
-'price' => 'Int32',
+'price' => 'int',
 'category' => '\Swagger\Client\Model\ItemsInfoWithCategoryAvitoCategory',
 'status' => 'string',
 'url' => 'string'    ];
@@ -71,7 +71,7 @@ class ItemsInfoWithCategoryAvitoResources implements ModelInterface, ArrayAccess
     protected static $swaggerFormats = [
         'id' => 'int32',
 'title' => null,
-'price' => null,
+'price' => 'int32',
 'category' => null,
 'status' => null,
 'url' => null    ];
@@ -304,7 +304,7 @@ self::STATUS_REJECTED,        ];
     /**
      * Gets price
      *
-     * @return Int32
+     * @return int
      */
     public function getPrice()
     {
@@ -314,7 +314,7 @@ self::STATUS_REJECTED,        ];
     /**
      * Sets price
      *
-     * @param Int32 $price Цена объявления (null значение означает, что цена не указана)
+     * @param int $price Цена объявления (null значение означает, что цена не указана)
      *
      * @return $this
      */
