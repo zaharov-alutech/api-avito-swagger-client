@@ -376,7 +376,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **itemStatsShallow**
-> \Swagger\Client\Model\StatisticsResponse itemStatsShallow($authorization, $user_id, $body)
+> \Swagger\Client\Model\StatisticsResponseNew itemStatsShallow($authorization, $user_id, $body)
 
 Получение статистики по списку объявлений
 
@@ -421,7 +421,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Swagger\Client\Model\StatisticsResponse**](../Model/StatisticsResponse.md)
+[**\Swagger\Client\Model\StatisticsResponseNew**](../Model/StatisticsResponseNew.md)
 
 ### Authorization
 

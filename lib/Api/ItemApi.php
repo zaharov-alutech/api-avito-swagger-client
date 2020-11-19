@@ -1974,7 +1974,7 @@ class ItemApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return \Swagger\Client\Model\StatisticsResponse
+     * @return \Swagger\Client\Model\StatisticsResponseNew
      */
     public function itemStatsShallow($authorization, $user_id, $body = null)
     {
@@ -1993,11 +1993,11 @@ class ItemApi
      *
      * @throws \Swagger\Client\ApiException on non-2xx response
      * @throws \InvalidArgumentException
-     * @return array of \Swagger\Client\Model\StatisticsResponse, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Swagger\Client\Model\StatisticsResponseNew, HTTP status code, HTTP response headers (array of strings)
      */
     public function itemStatsShallowWithHttpInfo($authorization, $user_id, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\StatisticsResponse';
+        $returnType = '\Swagger\Client\Model\StatisticsResponseNew';
         $request = $this->itemStatsShallowRequest($authorization, $user_id, $body);
 
         try {
@@ -2049,7 +2049,7 @@ class ItemApi
                 case 200:
                     $data = ObjectSerializer::deserialize(
                         $e->getResponseBody(),
-                        '\Swagger\Client\Model\StatisticsResponse',
+                        '\Swagger\Client\Model\StatisticsResponseNew',
                         $e->getResponseHeaders()
                     );
                     $e->setResponseObject($data);
@@ -2135,7 +2135,7 @@ class ItemApi
      */
     public function itemStatsShallowAsyncWithHttpInfo($authorization, $user_id, $body = null)
     {
-        $returnType = '\Swagger\Client\Model\StatisticsResponse';
+        $returnType = '\Swagger\Client\Model\StatisticsResponseNew';
         $request = $this->itemStatsShallowRequest($authorization, $user_id, $body);
 
         return $this->client
