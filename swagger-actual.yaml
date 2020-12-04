@@ -5736,7 +5736,7 @@ components:
         chats:
           type: array
           items:
-            - $ref: '#/components/schemas/Chat'
+            $ref: '#/components/schemas/Chat'
     webhookSubscribeRequestBody:
       type: object
       required:

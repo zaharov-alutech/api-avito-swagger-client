@@ -56,7 +56,7 @@ class Chats implements ModelInterface, ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'chats' => 'array'    ];
+        'chats' => '\Swagger\Client\Model\Chat[]'    ];
 
     /**
       * Array of property to format mappings. Used for (de)serialization
@@ -199,7 +199,7 @@ class Chats implements ModelInterface, ArrayAccess
     /**
      * Gets chats
      *
-     * @return array
+     * @return \Swagger\Client\Model\Chat[]
      */
     public function getChats()
     {
@@ -209,7 +209,7 @@ class Chats implements ModelInterface, ArrayAccess
     /**
      * Sets chats
      *
-     * @param array $chats chats
+     * @param \Swagger\Client\Model\Chat[] $chats chats
      *
      * @return $this
      */
